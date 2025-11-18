@@ -153,6 +153,23 @@
             object-fit: contain;
         }
 
+        .logo {
+            height: 100px; /* taille par défaut */
+        }
+
+        @media (max-width: 992px) {
+            .logo {
+                height: 60px; /* réduit sur tablette */
+            }
+        }
+
+        @media (max-width: 576px) {
+            .logo {
+                height: 50px; /* réduit sur mobile */
+            }
+        }
+
+
 
     </style>
 </head>
@@ -165,7 +182,7 @@
 
         <div>
             <i class="bi bi-telephone"></i> (+225) 27 20 00 00 00 &nbsp;&nbsp;
-            <i class="bi bi-envelope"></i> contact@oia-cafecacao.ci
+            <i class="bi bi-envelope"></i> contact@gtchn-cafecacao.ci
         </div>
 
         <div class="social-icons">
@@ -184,7 +201,7 @@
 
         <!-- Logo gauche -->
         <a class="navbar-brand" href="#">
-            <img src="images/logo/logo-gtchn.jpg" alt="Logo" height="55">
+            <img src="images/logo/logo-gtchn.jpg" alt="Logo" class="logo">
         </a>
 
         <!-- Toggle mobile -->
@@ -254,7 +271,7 @@
                     </p>
 
                     <!-- Nom -->
-                    <p class="fw-bold mb-0" style="color:#f3a24c;">M FELIX GUEU</p>
+                    <p class="fw-bold mb-0" style="color:#f3a24c;">M ALAHASSANE DIAKITE</p>
                 </div>
             </div>
 
